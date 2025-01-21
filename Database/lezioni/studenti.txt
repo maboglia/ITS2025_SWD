@@ -1,30 +1,31 @@
-nesma	abd el aziz	14/08/2000
-Andrea	Alume	11/05/2004
-Andrea	Bellissimo	05/11/2005
-Nicolas	Bellotti	13/02/1996
-Omar	Benagoub	01/07/2005
-Maria	Cernat	31/08/1995
-Xiaolong	Chen	08/08/2004
-Simone	Chimirri	01/02/2004
-Simone	Crivello	19/07/1996
-Alessandro	De Filippis	04/06/2002
-Luca	Di Pasquale	13/05/2004
-Marco	Dima	15/05/2002
-Alessio	Divizia	10/06/2002
-Tommaso	Ferrero	06/07/2003
-Alessandro	Formicola	16/08/2004
-Alessandro	Grotta	08/05/2004
-Jiacheng	Hu	17/05/1999
-Dario	Ilescu	15/08/2005
-Angelo	Jimenez Moscoso	22/01/1996
-Emanuele	Macis	06/07/2002
-Lorenzo	Maero	05/08/2004
-Yaroslav	Nechainikov	11/03/2005
-denis angelo	oniga	05/10/2004
-Jacopo	Parlacino	08/06/2005
-Simone	Pizzorno	09/08/2005
-Daniela	Punzi	15/03/2005
-Andrea	Sabini	28/02/1999
-marco	spedaliere	24/07/2005
-Ulrich	Tchiengoua 	21/06/1997
-domenico	vardè	21/06/2004
+INSERT INTO studenti_swd (nome, cognome, data_nascita)
+('nesma','abd el aziz','2000-08-14'),
+('Andrea','Alume','2004-05-11'),
+('Andrea','Bellissimo','2005-11-05'),
+('Nicolas','Bellotti','1996-02-13'),
+('Omar','Benagoub','2005-07-01'),
+('Maria','Cernat','1995-08-31'),
+('Xiaolong','Chen','2004-08-08'),
+('Simone','Chimirri','2004-02-01'),
+('Simone','Crivello','1996-07-19'),
+('Alessandro','De Filippis','2002-06-04'),
+('Luca','Di Pasquale','2004-05-13'),
+('Marco','Dima','2002-05-15'),
+('Alessio','Divizia','2002-06-10'),
+('Tommaso','Ferrero','2003-07-06'),
+('Alessandro','Formicola','2004-08-16'),
+('Alessandro','Grotta','2004-05-08'),
+('Jiacheng','Hu','1999-05-17'),
+('Dario','Ilescu','2005-08-15'),
+('Angelo','Jimenez Moscoso','1996-01-22'),
+('Emanuele','Macis','2002-07-06'),
+('Lorenzo','Maero','2004-08-05'),
+('Yaroslav','Nechainikov','2005-03-11'),
+('denis angelo','oniga','2004-10-05'),
+('Jacopo','Parlacino','2005-06-08'),
+('Simone','Pizzorno','2005-08-09'),
+('Daniela','Punzi','2005-03-15'),
+('Andrea','Sabini','1999-02-28'),
+('marco','spedaliere','2005-07-24'),
+('Ulrich','Tchiengoua ','1997-06-21'),
+('domenico','vardè','2004-06-21');

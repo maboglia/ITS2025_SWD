@@ -29,21 +29,7 @@ INSERT INTO studenti (nome, cognome) VALUES
 ('Tommaso','Ferrero'),
 ('Alessandro','Formicola'),
 ('Alessandro','Grotta'),
-('Jiacheng','Hu'),
-('Dario','Ilescu'),
-('Angelo','Jimenez Moscoso'),
-('Emanuele','Macis'),
-('Lorenzo','Maero'),
-('Yaroslav','Nechainikov'),
-('denis angelo','oniga'),
-('Jacopo','Parlacino'),
-('Simone','Pizzorno'),
-('Daniela','Punzi'),
-('Andrea','Sabini'),
-('marco','spedaliere'),
-('Ulrich','Tchiengoua '),
-('domenico','vardè');
-
+ where id = 3;
 
 -- READ: SELECT * FROM studenti;
 SELECT * FROM studenti;
