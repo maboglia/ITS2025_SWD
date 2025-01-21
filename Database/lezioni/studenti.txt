@@ -1,4 +1,6 @@
+
 INSERT INTO studenti_swd (nome, cognome, data_nascita)
+VALUES
 ('nesma','abd el aziz','2000-08-14'),
 ('Andrea','Alume','2004-05-11'),
 ('Andrea','Bellissimo','2005-11-05'),
@@ -29,3 +31,5 @@ INSERT INTO studenti_swd (nome, cognome, data_nascita)
 ('marco','spedaliere','2005-07-24'),
 ('Ulrich','Tchiengoua ','1997-06-21'),
 ('domenico','vardè','2004-06-21');
+
+
