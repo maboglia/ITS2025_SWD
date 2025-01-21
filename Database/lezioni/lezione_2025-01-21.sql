@@ -73,6 +73,9 @@ VALUES
 ('domenico','vardè','2004-06-21');
 
 
-
+create table studenti_swd_min22 as 
+SELECT *, FLOOR(DATEDIFF(CURRENT_DATE, data_nascita) / 365) AS age 
+from studenti_swd
+where FLOOR(DATEDIFF(CURRENT_DATE, data_nascita) / 365) < 22;
 
 
