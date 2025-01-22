@@ -1,8 +1,19 @@
+CREATE TABLE corsi (
+	id INT PRIMARY KEY NOT NULL auto_increment,
+    nome VARCHAR(100),
+    ore INT
 
+);
+
+DROP TABLE corsi;
+
+CREATE TABLE `fondamenti`.`corsi` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(100) NULL,
+  `ore` INT NULL,
+  PRIMARY KEY (`id`));
 
 INSERT INTO corsi (nome) VALUES 
-('Materiale condiviso - Cartella del partecipante'),
-('Materiale condiviso - Docenti'),
 ('Approfondimenti didattici e Orientamento'),
 ('Architetture e infrastrutture Software'),
 ('Base di dati - NoSQL'),
@@ -29,7 +40,7 @@ INSERT INTO corsi (nome) VALUES
 ('Programmazione WEB - Javascript'),
 ('Sicurezza informatica'),
 ('Sicurezza sul lavoro'),
-('Strumenti AI e Prompt Engineerin');
+('Strumenti AI e Prompt Engineering');
 
 SELECT * FROM corsi;
 
