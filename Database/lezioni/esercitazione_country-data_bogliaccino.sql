@@ -122,7 +122,8 @@ order by RANGE_ETA
 ;
 -- 29. Trovare i paesi con un tasso di mortalità infantile superiore alla media globale
 
-
-
+SELECT * from `country-data` where child_mort > (
+SELECT AVG(child_mort) from `country-data`
+);
 -- 30. Trovare i paesi con il massimo tasso di mortalità infantile in ogni fascia di reddito
 
