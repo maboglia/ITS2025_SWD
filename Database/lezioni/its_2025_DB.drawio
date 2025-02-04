@@ -105,6 +105,9 @@
         <mxCell id="ocJH8IuIkuNYbvHp2St5-24" value="CREATE" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="410" y="80" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OZoO1Ng18PKPy_9w4PIY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ocJH8IuIkuNYbvHp2St5-26" target="OZoO1Ng18PKPy_9w4PIY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ocJH8IuIkuNYbvHp2St5-26" value="GRANT" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="270" y="80" width="100" height="40" as="geometry" />
         </mxCell>
@@ -252,6 +255,9 @@
         </mxCell>
         <mxCell id="ocJH8IuIkuNYbvHp2St5-76" value="SQL" style="text;strokeColor=#001DBC;fillColor=#0050ef;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="700" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZoO1Ng18PKPy_9w4PIY-2" value="REVOKE" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -45,7 +45,17 @@ join editore e on l.editore_id = e.id -- associazione libro -> editore
 
 -- 17. Trovare gli autori che hanno scritto più di un libro
 
+SELECT a.nome, a.cognome, count(al.libro_id) AS numero
+FROM autore a 
+JOIN autore_libro al on a.id = al.autore_id
+GROUP BY a.id
+HAVING numero > 1;
+
 -- 18. Trovare gli autori che non hanno scritto alcun libro
+
+select a.nome, a.cognome
+from autore a
+where id not in (select distinct autore_id from autore_libro)
 
 -- 19. Selezionare i libri con più di un autore
 
@@ -67,6 +77,21 @@ join editore e on l.editore_id = e.id -- associazione libro -> editore
 
 -- 28. Selezionare il nome degli editori che hanno pubblicato almeno un libro con più di 500 pagine
 
+select e.nome, count(*)
+from editore e
+join libro l on e.id = l.editore_id
+where l.pagine > 500
+group by e.nome WITH ROLLUP
+;
+
 -- 29. Trovare gli autori che hanno scritto libri pubblicati da più di un editore
 
 -- 30. Contare il numero di libri per ogni autore con più di 1 libro
+
+select a.nome, a.cognome, count(al.libro_id) as NUM_LIBRI
+from autore a
+join autore_libro al on a.id = al.autore_id
+group by a.id
+having NUM_LIBRI > 1
+;
+
