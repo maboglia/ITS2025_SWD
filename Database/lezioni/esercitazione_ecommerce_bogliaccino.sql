@@ -1,4 +1,4 @@
-# Tabelle per esercitazione ESE
+-- # Tabelle per esercitazione ESE
 
 -- **1. Tabella `prodotti`**
 
@@ -119,9 +119,9 @@ CREATE TABLE ordini_temp (
 -- Dopo aver creato la struttura delle tabelle, esercitati con le principali operazioni `DML`
 
 -- ------------------------------------
-# Esercizi di INSERT
+-- # Esercizi di INSERT
+-- 
 
--- -- ------------------------------------\n
 
 -- -- ------------------------------------
 
@@ -171,9 +171,10 @@ CREATE TABLE ordini_temp (
 -- Inserire tutti i record da una tabella temporanea a una tabella definitiva:
 
 -- -- ------------------------------------
--- # Esercizi di UPDATE
 
--- -- ------------------------------------\n
+-- # Esercizi di UPDATE
+-- 
+
 
 -- -- ------------------------------------
 
@@ -214,8 +215,9 @@ CREATE TABLE ordini_temp (
 -- **10. Aggiornare il nome dei fornitori che hanno fornito almeno un prodotto con quantità superiore a 100 in "Fornitore Premium"**
 
 -- ------------------------------------
-# Esercizi di DELETE
--- -- ------------------------------------\n
+
+-- # Esercizi di DELETE
+
 
 -- -- ------------------------------------
 
@@ -257,7 +259,7 @@ CREATE TABLE ordini_temp (
 -- Svuota le tabelle con i tuoi dati di prova e carica i seguenti dati `fake` ed esegui le istruzioni `DQL`
 
 -- ------------------------------------
-## Dati fake
+-- ## Dati fake
 
 -- Ecco le istruzioni SQL per inserire 10 record fittizi in ciascuna delle tabelle descritte:
 
@@ -396,11 +398,116 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 ('T009', 'C009', '2024-01-29'),
 ('T010', 'C010', '2024-01-30');
 
+-- Altri record
+
+-- 1. Inserire record nella tabella Prodotti
+INSERT INTO Prodotti VALUES
+('P011', 'Felpa', 'Blu', 'L', 'MZ01'),
+('P012', 'Jeans', 'Denim', 'M', 'MZ02'),
+('P013', 'Sneakers', 'Bianco', '43', 'MZ03'),
+('P014', 'Sciarpa', 'Rosso', 'Unica', 'MZ01'),
+('P015', 'Parka', 'Verde', 'XL', 'MZ02'),
+('P016', 'Borsa', 'Nero', NULL, 'MZ03'),
+('P017', 'Anello', 'Argento', 'Unica', 'MZ01'),
+('P018', 'Calze', 'Grigio', 'M', 'MZ02'),
+('P019', 'Portafoglio', 'Marrone', 'Unica', 'MZ03'),
+('P020', 'Bracciale', 'Oro', 'Unica', 'MZ01');
+
+-- 2. Inserire record nella tabella Fornitori
+INSERT INTO Fornitori VALUES
+('F011', 'Luxury Goods', 14, 'Milano'),
+('F012', 'Fast Supply', 11, 'Roma'),
+('F013', 'Eco Wear', 9, 'Napoli'),
+('F014', 'Tech Fabrics', 18, 'Torino'),
+('F015', 'Italian Fashion', 7, 'Bologna'),
+('F016', 'Smart Retail', 13, 'Firenze'),
+('F017', 'Best Products', 5, 'Verona'),
+('F018', 'Trend Hub', 8, 'Genova'),
+('F019', 'Design Concepts', 6, 'Palermo'),
+('F020', 'Handmade Creations', 4, 'Venezia');
+
+-- 3. Inserire record nella tabella Clienti
+INSERT INTO Clienti VALUES
+('C011', 'Giovanni Azzurro', 'giovanni.azzurro@example.com', '2024-01-11'),
+('C012', 'Martina Verde', 'martina.verde@example.com', '2024-01-12'),
+('C013', 'Paolo Nero', 'paolo.nero@example.com', '2024-01-13'),
+('C014', 'Francesca Bianca', 'francesca.bianca@example.com', '2024-01-14'),
+('C015', 'Davide Grigio', 'davide.grigio@example.com', '2024-01-15'),
+('C016', 'Silvia Viola', 'silvia.viola@example.com', '2024-01-16'),
+('C017', 'Emanuele Marrone', 'emanuele.marrone@example.com', '2024-01-17'),
+('C018', 'Roberta Gialla', 'roberta.gialla@example.com', '2024-01-18'),
+('C019', 'Alberto Rosso', 'alberto.rosso@example.com', '2024-01-19'),
+('C020', 'Elena Arancio', 'elena.arancio@example.com', '2024-01-20');
+
+-- 4. Inserire record nella tabella ProdottiArchivio
+INSERT INTO ProdottiArchivio VALUES
+('A011', 'Felpa Vintage', 'Blu', 'L'),
+('A012', 'Jeans d\'Epoca', 'Denim', 'M'),
+('A013', 'Sneakers Classiche', 'Bianco', '43'),
+('A014', 'Sciarpa Retrò', 'Rosso', 'Unica'),
+('A015', 'Parka Pesante', 'Verde', 'XL'),
+('A016', 'Borsa Vintage', 'Nero', NULL),
+('A017', 'Anello Antico', 'Argento', 'Unica'),
+('A018', 'Calze di Lana', 'Grigio', 'M'),
+('A019', 'Portafoglio in Pelle', 'Marrone', 'Unica'),
+('A020', 'Bracciale Elegante', 'Oro', 'Unica');
+
+-- 5. Inserire record nella tabella Ordini
+INSERT INTO Ordini VALUES
+('O011', 'C011', '2024-01-21'),
+('O012', 'C012', '2024-01-22'),
+('O013', 'C013', '2024-01-23'),
+('O014', 'C014', '2024-01-24'),
+('O015', 'C015', '2024-01-25'),
+('O016', 'C016', '2024-01-26'),
+('O017', 'C017', '2024-01-27'),
+('O018', 'C018', '2024-01-28'),
+('O019', 'C019', '2024-01-29'),
+('O020', 'C020', '2024-01-30');
+
+-- 6. Inserire record nella tabella Vendite
+INSERT INTO Vendite VALUES
+('V011', 'P011', 7, 25.99, 181.93),
+('V012', 'P012', 4, 39.99, 159.96),
+('V013', 'P013', 6, 59.99, 359.94),
+('V014', 'P014', 9, 14.99, 134.91),
+('V015', 'P015', 3, 99.99, 299.97),
+('V016', 'P016', 5, 69.99, 349.95),
+('V017', 'P017', 8, 29.99, 239.92),
+('V018', 'P018', 10, 9.99, 99.90),
+('V019', 'P019', 6, 34.99, 209.94),
+('V020', 'P020', 2, 149.99, 299.98);
+
+-- 7. Inserire record nella tabella FornitoriProdotti
+INSERT INTO FornitoriProdotti VALUES
+('F011', 'P011', 120),
+('F012', 'P012', 180),
+('F013', 'P013', 140),
+('F014', 'P014', 220),
+('F015', 'P015', 250),
+('F016', 'P016', 60),
+('F017', 'P017', 90),
+('F018', 'P018', 75),
+('F019', 'P019', 85),
+('F020', 'P020', 50);
+
+-- 8. Inserire record nella tabella OrdiniTemp
+INSERT INTO OrdiniTemp VALUES
+('T011', 'C011', '2024-02-01'),
+('T012', 'C012', '2024-02-02'),
+('T013', 'C013', '2024-02-03'),
+('T014', 'C014', '2024-02-04'),
+('T015', 'C015', '2024-02-05'),
+('T016', 'C016', '2024-02-06'),
+('T017', 'C017', '2024-02-07'),
+('T018', 'C018', '2024-02-08'),
+('T019', 'C019', '2024-02-09'),
+('T020', 'C020', '2024-02-10');
 
 -- ------------------------------------
-# Esercizi di SELECT
+-- # Esercizi di SELECT
+-- 
 
--- -- ------------------------------------\n
 
 -- -- ------------------------------------
 
@@ -440,9 +547,9 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **10. Trovare i prodotti venduti esclusivamente nel magazzino "MZ001"**
 
 -- ------------------------------------
-# Esercizi con OPERATORI
+-- # Esercizi con OPERATORI
+-- 
 
--- -- ------------------------------------\n
 
 -- -- ------------------------------------
 
@@ -488,9 +595,9 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **10. Visualizzare i prodotti con prezzo maggiore di 20 e in magazzini diversi da "MZ001"**
 
 -- ------------------------------------
-# Esercizi con JOIN
+-- # Esercizi con JOIN
+-- 
 
--- -- ------------------------------------\n
 
 -- -- ------------------------------------
 
@@ -535,9 +642,8 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **10. Visualizzare i prodotti e il numero di fornitori che li forniscono**
 
 -- ------------------------------------
-# Esercizi con GROUP BY
+-- # Esercizi con GROUP BY
 
--- ------------------------------------\n
 
 -- ------------------------------------
 
@@ -583,7 +689,7 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **10. Determinare il numero di prodotti forniti e la quantità totale fornita da fornitori con più di 5 soci**
 
 -- ------------------------------------
-# sperimentare le principali funzioni di testo in SQL
+-- # sperimentare le principali funzioni di testo in SQL
 
 -- ------------------------------------
 -- **Esercizio 1: Convertire il testo in maiuscolo**
@@ -622,7 +728,7 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **Descrizione:** Formatta gli ID degli ordini in modo che abbiano sempre 5 cifre (es. 00001).  
 
 -- ------------------------------------
-# Funzioni numeriche
+-- # Funzioni numeriche
 
 -- ------------------------------------
 -- **Esercizio 1: Arrotondare un numero**
@@ -661,7 +767,7 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- **Descrizione:** Calcola la media dei prezzi dei prodotti.  
 
 -- ------------------------------------
-# Funzioni data, ora, datetime
+-- # Funzioni data, ora, datetime
 
 -- ------------------------------------
 -- ------------------------------------
