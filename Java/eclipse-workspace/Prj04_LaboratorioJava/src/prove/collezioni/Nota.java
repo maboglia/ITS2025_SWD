@@ -1,5 +1,7 @@
 package prove.collezioni;
 
+import java.util.Objects;
+
 public class Nota implements Comparable<Nota>{
 
 	public String ita;
@@ -27,6 +29,26 @@ public class Nota implements Comparable<Nota>{
 	@Override
 	public String toString() {
 		return "Nota [ita=" + ita + ", usa=" + usa + "]";
+	}
+
+	
+	
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(ita);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Nota other = (Nota) obj;
+		return ita.equals(other.ita);
 	}
 
 	@Override

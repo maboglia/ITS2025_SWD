@@ -1,6 +1,7 @@
 package prove.collezioni;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ProvaArrayStringhe {
 
@@ -25,6 +26,13 @@ public class ProvaArrayStringhe {
 		Arrays.sort(note);
 		
 		for (String nota : note) {
+			//System.out.println(nota);
+		}
+		
+		List<String> listaNote = Arrays.asList(note);
+		listaNote.add("sol7");
+		
+		for (String nota : listaNote) {
 			System.out.println(nota);
 		}
 		

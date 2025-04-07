@@ -22,12 +22,19 @@ public class ProvaListaNote {
 		note.add(new Nota("re"));
 		note.add(new Nota("do"));
 		
-		Collections.sort(note);
+		//Collections.sort(note);
+
+		//String melodia = "";
+		StringBuilder costruttoreDiStringhe = new StringBuilder();
 		
 		for (Nota nota : note) {
-			System.out.println(nota);
+			costruttoreDiStringhe.append(nota.ita + " - ");
 		}
 
+		//melodia = costruttoreDiStringhe.toString();
+		
+		System.out.println(costruttoreDiStringhe.toString());
+		
 	}
 
 }
