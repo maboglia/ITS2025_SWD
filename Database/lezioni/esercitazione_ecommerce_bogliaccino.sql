@@ -401,7 +401,7 @@ INSERT INTO ordini_temp (codice_ordine, codice_cliente, data_ordine) VALUES
 -- Altri record
 
 -- 1. Inserire record nella tabella Prodotti
-INSERT INTO Prodotti VALUES
+INSERT INTO prodotti VALUES
 ('P011', 'Felpa', 'Blu', 'L', 'MZ01'),
 ('P012', 'Jeans', 'Denim', 'M', 'MZ02'),
 ('P013', 'Sneakers', 'Bianco', '43', 'MZ03'),
@@ -414,7 +414,7 @@ INSERT INTO Prodotti VALUES
 ('P020', 'Bracciale', 'Oro', 'Unica', 'MZ01');
 
 -- 2. Inserire record nella tabella Fornitori
-INSERT INTO Fornitori VALUES
+INSERT INTO fornitori VALUES
 ('F011', 'Luxury Goods', 14, 'Milano'),
 ('F012', 'Fast Supply', 11, 'Roma'),
 ('F013', 'Eco Wear', 9, 'Napoli'),
@@ -427,7 +427,7 @@ INSERT INTO Fornitori VALUES
 ('F020', 'Handmade Creations', 4, 'Venezia');
 
 -- 3. Inserire record nella tabella Clienti
-INSERT INTO Clienti VALUES
+INSERT INTO clienti VALUES
 ('C011', 'Giovanni Azzurro', 'giovanni.azzurro@example.com', '2024-01-11'),
 ('C012', 'Martina Verde', 'martina.verde@example.com', '2024-01-12'),
 ('C013', 'Paolo Nero', 'paolo.nero@example.com', '2024-01-13'),
@@ -440,7 +440,7 @@ INSERT INTO Clienti VALUES
 ('C020', 'Elena Arancio', 'elena.arancio@example.com', '2024-01-20');
 
 -- 4. Inserire record nella tabella ProdottiArchivio
-INSERT INTO ProdottiArchivio VALUES
+INSERT INTO prodotti_archivio VALUES
 ('A011', 'Felpa Vintage', 'Blu', 'L'),
 ('A012', 'Jeans d\'Epoca', 'Denim', 'M'),
 ('A013', 'Sneakers Classiche', 'Bianco', '43'),
@@ -453,7 +453,7 @@ INSERT INTO ProdottiArchivio VALUES
 ('A020', 'Bracciale Elegante', 'Oro', 'Unica');
 
 -- 5. Inserire record nella tabella Ordini
-INSERT INTO Ordini VALUES
+INSERT INTO ordini VALUES
 ('O011', 'C011', '2024-01-21'),
 ('O012', 'C012', '2024-01-22'),
 ('O013', 'C013', '2024-01-23'),
@@ -466,7 +466,7 @@ INSERT INTO Ordini VALUES
 ('O020', 'C020', '2024-01-30');
 
 -- 6. Inserire record nella tabella Vendite
-INSERT INTO Vendite VALUES
+INSERT INTO vendite VALUES
 ('V011', 'P011', 7, 25.99, 181.93),
 ('V012', 'P012', 4, 39.99, 159.96),
 ('V013', 'P013', 6, 59.99, 359.94),
@@ -479,7 +479,7 @@ INSERT INTO Vendite VALUES
 ('V020', 'P020', 2, 149.99, 299.98);
 
 -- 7. Inserire record nella tabella FornitoriProdotti
-INSERT INTO FornitoriProdotti VALUES
+INSERT INTO fornitori_prodotti VALUES
 ('F011', 'P011', 120),
 ('F012', 'P012', 180),
 ('F013', 'P013', 140),
@@ -492,7 +492,7 @@ INSERT INTO FornitoriProdotti VALUES
 ('F020', 'P020', 50);
 
 -- 8. Inserire record nella tabella OrdiniTemp
-INSERT INTO OrdiniTemp VALUES
+INSERT INTO ordini_temp VALUES
 ('T011', 'C011', '2024-02-01'),
 ('T012', 'C012', '2024-02-02'),
 ('T013', 'C013', '2024-02-03'),
