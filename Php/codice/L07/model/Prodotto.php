@@ -8,10 +8,7 @@ class Prodotto {
     private $prezzo;
     private $giacenza;
 
-    public function __construct($nome, $prezzo){
-        $this->nome = $nome;
-        $this->prezzo = $prezzo;
-    }
+
 
     public function __get($name){
         return $this->$name;

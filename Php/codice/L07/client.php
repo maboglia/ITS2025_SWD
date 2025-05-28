@@ -9,7 +9,10 @@
 
     switch ($pagina) {
         case 'elettronica':
-            $controller->getProdotti();
+            $controller->getProdotti('Elettronica');
+            break;
+        case 'sport':
+            $controller->getProdotti('Sport');
             break;
         
         default:

@@ -11,15 +11,18 @@ class ProdottoCtrl {
     }
 
     public function home(){
+
+        $prodotti = $this->repo->getProdotti();
+
         include  './view/header.php';
-        //home page
+        include  './view/tabella.php';
         include  './view/footer.php';        
     }
 
 
-    public function getProdotti(){
-
-      $prodotti = $this->repo->getProdotti();
+    public function getProdotti($categoria){
+   
+      $prodotti = $this->repo->getProdottiByCategoria($categoria);
 
       include  './view/header.php';
       include  './view/tabella.php';

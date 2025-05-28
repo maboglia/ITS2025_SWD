@@ -1,31 +1,44 @@
 <?php
 
 include   './model/Prodotto.php';
+include   './repos/Connessione.php';
 
 class ProdottoRepo {
 
+    private $connessione;
+
+    public function __construct() {
+        $this->connessione = new Connessione();
+    }
+
     public function getProdotti(){
 
-        $prodotti = [];
+        $con = $this->connessione->getConnessione();
 
-        //aggiungere prodotti all'array
+        $result = $con->query('SELECT * FROM prodotti');
+        $result->setFetchMode(PDO::FETCH_CLASS, 'Prodotto');
 
-        $p1 = new Prodotto('PC', 1000);
-        $p1->id=1;
-        $p1->categoria = "Informatica";
-        $p1->giacenza = 5;
-        $prodotti[] = $p1;
-        
-        $p2 = new Prodotto('Zaino', 50);
-        $p2->id=2;
-        $p2->categoria = "Scuola";
-        $p2->giacenza = 10;
-        $prodotti[] = $p2;
-
-
-        return $prodotti;
+        return $result->fetchAll();
 
     }
+
+    public function getProdottiByCategoria($categoria){
+
+        $con = $this->connessione->getConnessione();
+
+        $stmt = $con->prepare('SELECT * FROM prodotti WHERE categoria = :categoria');
+        $stmt->bindParam(':categoria', $categoria, PDO::PARAM_STR);
+        $stmt->execute();
+
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Prodotto');
+
+        return $stmt->fetchAll();
+
+    }
+
+
+
+
 
     public function getProdottoById($id){
 
