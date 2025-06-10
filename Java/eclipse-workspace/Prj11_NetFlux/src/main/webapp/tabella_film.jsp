@@ -1,12 +1,6 @@
-<!DOCTYPE html>
 <%@page import="entities.Film"%>
 <%@page import="java.util.List"%>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+
 
 	<h1>Film</h1>
 
@@ -20,13 +14,10 @@
 <% List<Film> films = (List<Film>) request.getAttribute("films");  %>
 	<% for(Film f : films) { %>
 		  <tr>
-		    <td><%= f.getTitle() %></td>
+		    <td><a target="_blank" href="https://www.google.com/search?q=<%= f.getTitle() %>"> <%= f.getTitle() %> </a></td>
 		    <td><%= f.getRating() %></td>
 		    <td><%= f.getYear() %></td>
 		  </tr>
 	<% } %>
 	</table>
 
-
-</body>
-</html>

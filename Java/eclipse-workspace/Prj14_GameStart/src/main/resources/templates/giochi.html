@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>Lista dei giochi disponibili</h1>
+	
+		<nav>
+			<ul>
+			  <li> <a href="/">Home</a> </li>
+			  <li> <a href="/games">Games</a> </li>
+			</ul>
+		</nav>
+		
+		<table>
+		  <tr>
+		    <th>Nome gioco</th>
+		    <th>Genere</th>
+		  </tr>
+		  <tr th:each="gioco : ${games}">
+		    <td th:text="${gioco.game}">Row 1: Col 1</td>
+		    <td th:text="${gioco.genre}">Row 1: Col 2</td>
+		  </tr>
+		</table>
+
+	
+	
+	</div>
+
+</body>
+</html>

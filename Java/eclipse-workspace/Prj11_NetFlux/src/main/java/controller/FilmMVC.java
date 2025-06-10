@@ -26,10 +26,20 @@ public class FilmMVC extends HttpServlet {
 		List<Film> films = service.getFilms();
 		//aggiungo i film all'oggetto request
 		request.setAttribute("films", films);
+		
+		//includo l'header del sito
+		request.getRequestDispatcher("header.jsp").include(request, response);
+		
+		
 		//chiamo la pagina jsp passandole i dati dei film
 		request
-			.getRequestDispatcher("tabella_film.jsp")
-			.forward(request, response);
+			.getRequestDispatcher("tabella_film.jsp")//smistare request
+			
+			.include(request, response);//include in questo punto la pagina
+			//.forward(request, response);//redirige alla pagina
+		
+		//includo il footer del sito
+		request.getRequestDispatcher("footer.jsp").include(request, response);
 		
 		
 	}
