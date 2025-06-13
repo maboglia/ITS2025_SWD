@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" >
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Titolo</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Origine</th>
+                    <th>Prezzo al kg</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="p : ${prodotti}">
+                    <td th:text="${p.nome}"></td>
+                    <td th:text="${p.categoria}"></td>
+                    <td th:text="${p.origine}"></td>
+                    <td th:text="${p.prezzoKg}"></td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+</html>

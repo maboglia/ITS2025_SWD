@@ -1,0 +1,18 @@
+2025-06-13 12:44:24.887805+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-13 12:45:07.263210+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-13 12:45:54.397017+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-13 12:57:44.819501+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-13 12:57:56.678371+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
+2025-06-13 12:58:09.800171+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODOTTI_ORTOFRUTTICOLI" already exists; SQL statement:
+CREATE TABLE prodotti_ortofrutticoli ( id INT PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(100) NOT NULL, categoria VARCHAR(50), origine VARCHAR(100), prezzo_kg DECIMAL(5,2), disponibilita ENUM('alta', 'media', 'bassa') ) [42101-232]
