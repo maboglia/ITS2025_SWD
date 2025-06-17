@@ -19,7 +19,7 @@
                     <th>Titolo</th>
                     <th>Pagine</th>
                     <th>Prezzo</th>
-                    <th>Autore</th>
+                    <th>Editore</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,7 +28,7 @@
                     <td><?= $libro->titolo ?></td>
                     <td><?= $libro->pagine ?></td>
                     <td><?= $libro->prezzo ?></td>
-                    <td><?= $libro->autore ?></td>
+                    <td><?= $libro->editore_id ?></td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>

@@ -18,8 +18,9 @@ class LibroRepo {
         $query = "SELECT * FROM libro";
         $results = $this->DB->query($query);
         //recuperare risultati
-        $results->setFetchMode(\PDO::FETCH_OBJ);
-        //scorrer risultati
+        $results->setFetchMode(\PDO::FETCH_CLASS, Libro::class);
+        // $results->setFetchMode(\PDO::FETCH_OBJ);
+        //scorrer risultat::
         // $libri = [];
         // while($record_libro = $results->fetch()){
         //     //array_push($libri, $record_libro);
