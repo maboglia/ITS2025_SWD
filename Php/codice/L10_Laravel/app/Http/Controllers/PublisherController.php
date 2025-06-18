@@ -25,7 +25,9 @@ class PublisherController extends Controller
      */
     public function create()
     {
-        //
+        $titolo = "Add new publisher";
+
+        return view("editore_form", ["titolo"=>$titolo]);
     }
 
     /**
@@ -33,7 +35,8 @@ class PublisherController extends Controller
      */
     public function store(StorePublisherRequest $request)
     {
-        //
+        
+        var_dump($request);
     }
 
     /**
