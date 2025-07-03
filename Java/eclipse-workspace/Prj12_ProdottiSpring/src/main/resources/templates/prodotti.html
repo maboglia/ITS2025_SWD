@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Prodotti</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Prezzo</th>
+                    <th>Giacenza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="prodotto : ${prodotti}">
+                    <td th:text="${prodotto.nome}">Pupazzo</td>
+                    <td th:text="${prodotto.categoria}">Pupazzi</td>
+                    <td th:text="${prodotto.prezzo}">3</td>
+                    <td th:text="${prodotto.giacenza}">2</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

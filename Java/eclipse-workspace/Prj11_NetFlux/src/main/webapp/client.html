@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Films</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Titolo</th>
+                    <th>Rating</th>
+                    <th>Anno</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!-- Qui inserire con javascript le righe for each film -->
+            </tbody>
+        </table>
+
+
+    </div>
+<script>
+
+    const INDIRIZZO_FILM = "api/films";
+    const TABLE_BODY = document.querySelector('table>tbody');
+
+    fetch(INDIRIZZO_FILM)
+        .then(res => res.json())
+        .then(films => {
+            for (const film of films) {
+                console.log(film);
+                const RIGA = document.createElement('tr')
+                const CELLA_TITLE = document.createElement('td')
+                const CELLA_RATING = document.createElement('td')
+                const CELLA_YEAR = document.createElement('td')
+
+                CELLA_TITLE.textContent = film.title
+                CELLA_RATING.textContent = film.rating
+                CELLA_YEAR.textContent = film.year
+
+                RIGA.append(CELLA_TITLE, CELLA_RATING, CELLA_YEAR)
+                TABLE_BODY.append(RIGA)
+
+
+            }
+        })
+
+
+</script>
+
+</body>
+</html>

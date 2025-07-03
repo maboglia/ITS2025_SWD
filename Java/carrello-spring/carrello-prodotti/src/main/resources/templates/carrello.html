@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" >
+</head>
+<body>
+    
+    <div class="container">
+
+        <div th:replace="home.html :: menu"></div>
+
+        <h1>Il tuo carrello</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Prezzo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="a : ${articoli}">
+                    <td th:text="${a.prodotto.nome}"></td>
+                    <td th:text="${a.prodotto.categoria}"></td>
+                    <td th:text="${a.prezzo}"></td>
+                    <td>
+                        <form th:action="@{/cart/remove}" method="post">
+                            <input type="hidden" name="articolo_id" th:value="${a.id}">
+                            <button>Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Totale</th>
+                    <th></th>
+                    <th th:text="${#numbers.formatCurrency(totale)}"></th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+</body>
+</html>

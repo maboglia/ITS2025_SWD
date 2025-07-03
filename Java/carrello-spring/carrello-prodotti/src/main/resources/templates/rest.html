@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" >
+</head>
+<body>
+    
+    <div class="container">
+        <h1>I nostri prodotti</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Prezzo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script>
+
+        const URL = '/api/prodotti'
+
+        fetch(URL)
+            .then(res => res.json())
+            .then(prodotti => {
+                for (const p of prodotti) {
+                    
+                    const TR = document.createElement('tr')
+                    const TD1 = document.createElement('td')
+                    const TD2 = document.createElement('td')
+                    const TD3 = document.createElement('td')
+                    const TD4 = document.createElement('td')
+
+                    TD1.textContent = p.nome
+                    TD2.textContent = p.categoria
+                    TD3.textContent = p.prezzo
+                    TD4.innerHTML = '<button>Add to cart</button>'
+
+                    TR.append(TD1,TD2,TD3,TD4)
+                    document.querySelector('tbody').append(TR)
+
+                }
+            })
+
+    </script>
+
+
+</body>
+</html>
