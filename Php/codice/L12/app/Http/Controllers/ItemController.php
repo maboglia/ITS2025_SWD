@@ -2,19 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Product;
+use App\Models\Item;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class ItemController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $tuttiProdotti = Product::inRandomOrder()->limit(5)->get(); //accesso al model
-
-        return view('tutti_prodotti', ['tuttiProdotti'=>$tuttiProdotti]);//chiamo la vista e passo i dati alla vista
+        return view('php.index', ['argomenti'=>Item::all()]);
     }
 
     /**
@@ -36,7 +34,7 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Product $product)
+    public function show(Item $item)
     {
         //
     }
@@ -44,7 +42,7 @@ class ProductController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Product $product)
+    public function edit(Item $item)
     {
         //
     }
@@ -52,7 +50,7 @@ class ProductController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, Item $item)
     {
         //
     }
@@ -60,7 +58,7 @@ class ProductController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Product $product)
+    public function destroy(Item $item)
     {
         //
     }

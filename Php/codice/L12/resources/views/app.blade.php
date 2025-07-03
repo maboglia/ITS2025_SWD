@@ -13,12 +13,7 @@
     
     <div class="container">
 
-        <nav>
-            <ul>
-                <li><a href="{{ route('products.index') }}">Prodotti</a></li>
-                <li><a href="{{ route('carts.index') }}">Carrello</a></li>
-            </ul>
-        </nav>
+        @include('menu')
 
 
         @yield('contenuto')
