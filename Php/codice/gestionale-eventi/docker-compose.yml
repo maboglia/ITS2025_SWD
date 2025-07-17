@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  php-apache:
+    build: .
+    container_name: eventi_php
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+    restart: always

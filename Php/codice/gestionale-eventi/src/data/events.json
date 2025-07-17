@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "1) Preparare il progetto Gestione eventi",
+        "date": "2025-07-15",
+        "description": "progetto php da consegnare"
+    },
+    {
+        "id": 2,
+        "title": "2) Sviluppare il codice",
+        "date": "2025-07-15",
+        "description": "Fase\tFunzionalit\u00e0\tDescrizione\r\n1\tElenco eventi\tindex.php legge e mostra gli eventi da events.json\r\n2\tAggiungi evento\tForm con: titolo, descrizione, data evento\r\n3\tModifica evento\tForm precompilato con dati da events.json\r\n4\tCancella evento\tConferma ed eliminazione da JSON\r\n5\tSessioni\tTracciamento operazioni CRUD e utente simulato (es. via parametro ?user=alice)\r\n6\tMessaggi feedback\tMessaggi di successo\/errore tramite $_SESSION['flash']"
+    },
+    {
+        "id": 3,
+        "title": "3 Test delle funzionalit\u00e0",
+        "date": "2025-07-15",
+        "description": "Testare il vostro stupendo codice"
+    },
+    {
+        "id": 4,
+        "title": "4 Containerizzare",
+        "date": "2025-07-15",
+        "description": "Creare un container con docker per rilasciare l'app standalone"
+    },
+    {
+        "id": 5,
+        "title": "5 runnare il progetto nel container",
+        "date": "2025-07-15",
+        "description": "runnare il progetto nel container"
+    },
+    {
+        "id": 6,
+        "title": "6 consegnare il progetto in un archivio compresso",
+        "date": "2025-07-15",
+        "description": "nome del file compresso:\r\ntuoCognome_gestione_eventi.zip"
+    }
+]
