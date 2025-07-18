@@ -1,0 +1,16 @@
+<?php
+
+
+class Prodottictrl {
+
+    private $prodotti = [];
+
+    public function addProdotto($prodotto) {
+        $this->prodotti[] = $prodotto; //dichiarativa
+        // array_push($prodotti, $prodotto); // funzionale
+    }
+
+    public function getProdotti() {
+        return $this->prodotti;
+    }
+}
