@@ -1,0 +1,10 @@
+{
+    "name": "maria.cernat/l08",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MariaCernat\\L08\\": "src/"
+        }
+    },
+    "require": {}
+}

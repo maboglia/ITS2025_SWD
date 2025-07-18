@@ -1,0 +1,18 @@
+{
+    "name": "bellissimo/ortofrutta",
+    "description": "parole descrittive",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andu-png",
+            "email": "andrea.bellissimo@edu-its.it"
+        }
+    ],
+    "require": {}
+}

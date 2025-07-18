@@ -1,0 +1,18 @@
+{
+    "name": "andre/ortofrutta",
+    "description": "Progetto ortofrutta",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AndreaAlume",
+            "email": "andrea.alume@edu-its.it"
+        }
+    ],
+    "require": {}
+}

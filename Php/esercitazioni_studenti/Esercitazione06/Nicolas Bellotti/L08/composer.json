@@ -1,0 +1,12 @@
+{
+    "name": "bellotti/ortofrutta",
+    "description": "Progetto di verdure",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "require": {}
+}

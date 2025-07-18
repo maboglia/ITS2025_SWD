@@ -1,0 +1,17 @@
+{
+    "name": "spicysimonroll/shop",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Spicysimonroll",
+            "email": "simon.hu.1999@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,18 @@
+{
+    "name": "dima/ortofrutta",
+    "description": "parole descrittive",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarcoDima02",
+            "email": "dimamarco02@gmail.com"
+        }
+    ],
+    "require": {}
+}

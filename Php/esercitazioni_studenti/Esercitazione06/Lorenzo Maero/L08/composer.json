@@ -1,0 +1,18 @@
+{
+    "name": "maero/ortofrutta",
+    "description": "Progetto ortofrutta",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lorenzo",
+            "email": "lorenzo.maero@edu-its.it"
+        }
+    ],
+    "require": {}
+}

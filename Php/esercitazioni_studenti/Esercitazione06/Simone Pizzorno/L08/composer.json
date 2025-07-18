@@ -1,0 +1,12 @@
+{
+    "name": "pizzorno/ortofrutta",
+    "description": "parole descrittive",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "require": {}
+}

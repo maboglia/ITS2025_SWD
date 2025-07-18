@@ -1,0 +1,32 @@
+$nome= 'Andrea';
+
+define('CORSO','Software developer ');
+
+function Procedura(){
+    echo CORSO;
+    global $nome;
+    $nome= 'Andrea Sabini';
+    echo $nome;
+    echo date('d-m-Y h:i:s');   //procedura per le date format giorno/mese/anno ora:minuti:secondi
+}
+
+function funzione (int $a, int $b):int{
+    return $a + $b;
+}
+
+function prova ($a, $b=2){  //se metto argomenti opzionali devo metterli alla fine
+    return $a * $b;
+}
+
+echo'<pre>';
+var_dump($nome); //stampa il valore della variabile $nome --> meglio su variabili e costanti
+echo '<br>';
+print_r($nome); //stampa il valore della variabile $nome in modo leggibile --> funziona meglio sugli array
+echo'</pre>';
+
+Procedura();
+echo '<br>';
+echo funzione(7,8);
+echo '<br>';
+echo prova(7,9);
+

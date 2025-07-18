@@ -1,0 +1,19 @@
+{
+    "name": "xiao.chen/orto_frutta",
+    "description": "Parole descrittive",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xiao Chen",
+            "email": "xiao.chen@edu-its.it"
+        }
+    ],
+    "require": {}
+    
+}

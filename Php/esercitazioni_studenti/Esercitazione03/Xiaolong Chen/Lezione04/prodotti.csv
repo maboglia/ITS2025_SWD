@@ -1,0 +1,313 @@
+1,T-shirt Uomo Cotone,Uomo,19.99,50
+2,Giacca Uomo Invernale,Uomo,79.99,30
+3,Pantaloni Uomo Slim,Uomo,39.99,40
+4,Maglione Donna Cashmere,Donna,99.99,20
+5,Gonna Donna Estate,Donna,34.99,25
+6,Stivali Donna Invernali,Donna,59.99,15
+7,Camicia Bambino Cotone,Bambino,14.99,100
+8,Pantaloncini Bambino,Bambino,12.99,80
+9,Felpa Bambino,Bambino,19.99,60
+10,Giacca Bambino Antivento,Bambino,49.99,40
+11,Polo Uomo Estiva,Uomo,29.99,45
+12,Jeans Uomo Relaxed,Uomo,49.99,35
+13,Camicia Uomo Flanella,Uomo,34.99,55
+14,Giubbotto Uomo Pelle,Uomo,120.00,20
+15,Cappotto Uomo Lungo,Uomo,89.99,25
+16,Shorts Uomo Sportivi,Uomo,24.99,60
+17,T-shirt Donna Manica Lunga,Donna,22.99,40
+18,Pantalone Donna Elegante,Donna,59.99,30
+19,Blusa Donna Seta,Donna,89.99,15
+20,Abito Donna Cerimonia,Donna,150.00,10
+21,Cappello Donna Estate,Donna,19.99,50
+22,Sandali Donna Estate,Donna,39.99,45
+23,Giacca Bomber Donna,Donna,65.00,25
+24,T-shirt Bambino Cartoon,Bambino,9.99,70
+25,Felpa Bambino Cappuccio,Bambino,21.99,80
+26,Pantaloni Bambino Tuta,Bambino,17.99,65
+27,Giubbino Bambino Impermeabile,Bambino,49.99,30
+28,Cappellino Bambino,Bambino,12.99,90
+29,Giacca Bambino Jeans,Bambino,34.99,50
+30,T-shirt Uomo Grafica,Uomo,18.99,40
+31,Camicia Uomo Manica Corta,Uomo,27.99,50
+32,Pantaloni Uomo Cargo,Uomo,59.99,30
+33,Felpa Uomo Con Zip,Uomo,49.99,45
+34,Giacca Uomo Trench,Uomo,99.99,20
+35,Giubbino Uomo Sportivo,Uomo,69.99,35
+36,Abito Uomo Formal,Uomo,110.00,10
+37,Pantaloni Uomo Chino,Uomo,39.99,40
+38,Maglione Uomo Lana,Uomo,65.00,25
+39,T-shirt Donna Collo Alto,Donna,24.99,55
+40,Leggings Donna,Donna,19.99,60
+41,Giacca Donna Pelliccia,Donna,120.00,20
+42,Jeans Donna Skinny,Donna,49.99,45
+43,Blazer Donna,Donna,75.00,30
+44,Cardigan Donna,Donna,39.99,50
+45,Top Donna Elegante,Donna,34.99,60
+46,Vestito Donna Cocktail,Donna,95.00,15
+47,Pantaloni Donna Sportivi,Donna,29.99,50
+48,Cappotto Donna Invernale,Donna,100.00,25
+49,Giubbotto Donna Trapuntato,Donna,85.00,30
+50,Maglietta Bambino Con Animali,Bambino,10.99,85
+51,Tuta Bambino,Bambino,22.99,50
+52,Giubbotto Bambino Con Capuccio,Bambino,40.00,40
+53,Stivaletti Bambino,Bambino,27.99,60
+54,Camicia Bambino Manica Lunga,Bambino,15.99,75
+55,Maglione Bambino,Bambino,18.99,70
+56,Felpa Bambino Senza Cappuccio,Bambino,19.99,85
+57,Cappotto Bambino,Bambino,50.00,30
+58,Pantaloncini Bambino Estivi,Bambino,12.99,80
+59,T-shirt Bambino Colorata,Bambino,9.99,90
+60,Giacca Donna Corto,Donna,55.00,40
+61,Jeans Donna Regular,Donna,44.99,50
+62,Pantaloni Donna Sport,Donna,39.99,45
+63,Soprabito Donna,Donna,89.99,30
+64,Giubbotto Uomo Pioggia,Uomo,69.99,40
+65,Cappotto Uomo Elegante,Uomo,110.00,20
+66,Giubbotto Uomo Tinta Unita,Uomo,80.00,35
+67,Camicetta Donna,Donna,29.99,50
+68,Giacca Donna Casual,Donna,65.00,25
+69,Pantaloni Uomo Inverno,Uomo,54.99,40
+70,Giacca Uomo Softshell,Uomo,79.99,35
+71,Camicia Donna Cotone,Donna,35.00,40
+72,Bermuda Uomo,Uomo,24.99,60
+73,Gilet Uomo,Uomo,49.99,20
+74,T-shirt Donna Manica Corta,Donna,19.99,60
+75,Jeans Donna Tinta Unita,Donna,39.99,45
+76,Abito Bambino Cerimonia,Bambino,50.00,20
+77,Giubbino Bambino Fodera Invernale,Bambino,55.00,15
+78,Maglione Bambino Con Cappuccio,Bambino,25.99,40
+79,Felpa Bambino Girocollo,Bambino,18.99,65
+80,Camicia Donna Elegante,Donna,49.99,30
+81,Jeans Bambino,Bambino,18.99,70
+82,Giacca Uomo Outdoor,Uomo,60.00,30
+83,Maglione Donna Lungo,Donna,74.99,25
+84,Gonna Bambina,Bambino,29.99,50
+85,T-shirt Uomo Sport,Uomo,22.99,55
+86,Pantaloni Donna Stretch,Donna,38.99,60
+87,Giubbotto Bambino Pelle,Bambino,65.00,30
+88,Cappotto Donna Elegante,Donna,130.00,15
+89,Cappello Uomo Invernale,Uomo,14.99,70
+90,Jeans Bambino Slim,Bambino,22.99,50
+91,Maglia Uomo Cotone,Uomo,27.99,35
+92,Pantaloni Bambino Cotone,Bambino,16.99,65
+93,Tostapane Inox,Casalinghi,29.99,40
+94,Frullatore Elettrico,Casalinghi,39.99,35
+95,Bollitore Elettrico,Casalinghi,24.99,50
+96,Set di Posate 24 pezzi,Casalinghi,59.99,45
+97,Pattumiera in Acciaio,Casalinghi,22.99,60
+98,Set di Piatti in Porcellana,Casalinghi,79.99,30
+99,Tavolo da Cucina in Legno,Casalinghi,129.99,10
+100,Frigorifero Combinato,Casalinghi,499.99,5
+101,Caffettiera Moka,Casalinghi,19.99,70
+102,Macchina da Caffè Espresso,Casalinghi,89.99,20
+103,Microonde 800W,Casalinghi,119.99,15
+104,Asciugacapelli,Casalinghi,39.99,40
+105,Piastra per Panini,Casalinghi,24.99,50
+106,Scopa Elettrica Senza Fili,Casalinghi,99.99,25
+107,Robot da Cucina Multifunzionale,Casalinghi,199.99,10
+108,Grattugia Elettrica,Casalinghi,29.99,45
+109,Set di Pentole in Acciaio,Casalinghi,149.99,20
+110,Padella Antiaderente,Casalinghi,29.99,55
+111,Friggitore ad Aria,Casalinghi,79.99,30
+112,Bilancia da Cucina,Casalinghi,19.99,65
+113,Set di Tazze da Caffè,Casalinghi,34.99,40
+114,Frigo Bar,Casalinghi,199.99,15
+115,Grinder per Caffè,Casalinghi,49.99,25
+116,Piazza da Tavola in Ceramica,Casalinghi,59.99,50
+117,Set di Bicchieri in Cristallo,Casalinghi,79.99,30
+118,Cesto per Biancheria,Casalinghi,22.99,60
+119,Lavatripe ad Alta Pressione,Casalinghi,169.99,8
+120,Set di Asciugamani 4 pezzi,Casalinghi,19.99,70
+121,Scaldavivande,Casalinghi,49.99,25
+122,Cuscini Decorativi,Casalinghi,15.99,80
+123,Lampada da Tavolo,Casalinghi,39.99,35
+124,Tovaglia in Cotone,Casalinghi,12.99,90
+125,Portaombrelli,Casalinghi,14.99,60
+126,Orologio da Parete,Casalinghi,39.99,45
+127,Cesto Organizzatore,Casalinghi,9.99,100
+128,Stiratrice Verticale,Casalinghi,89.99,30
+129,Coperchio per Pentola,Casalinghi,6.99,50
+130,Panni Microfibra,Casalinghi,9.99,80
+131,Termosifone Elettrico,Casalinghi,89.99,25
+132,Carrello da Cucina,Casalinghi,69.99,40
+133,Macchina per Popcorn,Casalinghi,39.99,30
+134,Ventilatore a Torre,Casalinghi,49.99,50
+135,Barattoli in Vetro,Casalinghi,14.99,60
+136,Set di Contenitori Ermetici,Casalinghi,19.99,55
+137,Lampada a LED da Tavolo,Casalinghi,29.99,70
+138,Tappeto Antiscivolo,Casalinghi,24.99,65
+139,Borsa Termica per Spesa,Casalinghi,12.99,80
+140,Set di Bicchieri in Plastica,Casalinghi,7.99,90
+141,Tavolo da Giardino,Casalinghi,199.99,10
+142,Panca da Esterno,Casalinghi,149.99,12
+143,Grill Elettrico,Casalinghi,69.99,30
+144,Scopa a Vapore,Casalinghi,79.99,25
+145,Set di Piatti in Melamina,Casalinghi,39.99,45
+146,Ferro da Stiro a Vapore,Casalinghi,49.99,40
+147,Rullo per Filo da Cucina,Casalinghi,19.99,60
+148,Set di Vasi da Giardino,Casalinghi,29.99,50
+149,Smartphone Android 64GB,Elettronica,199.99,30
+150,Smartphone iPhone 13,Elettronica,899.99,15
+151,Cuffie Bluetooth,Elettronica,49.99,50
+152,Auricolari Wireless,Elettronica,29.99,70
+153,Smartwatch Fitness,Elettronica,59.99,40
+154,Caricatore Wireless,Elettronica,19.99,60
+155,Power Bank 10000mAh,Elettronica,29.99,55
+156,Televisore LED 50",Elettronica,399.99,20
+157,TV 4K Smart 55",Elettronica,649.99,12
+158,Ripetitore Wi-Fi,Elettronica,49.99,45
+159,Router Wi-Fi 6,Elettronica,99.99,35
+160,Tablet 10" Android,Elettronica,199.99,25
+161,Tablet iPad 64GB,Elettronica,329.99,18
+162,Laptop HP 15.6" i5,Elettronica,499.99,20
+163,Laptop Dell 14" i7,Elettronica,799.99,12
+164,PC Desktop Gaming,Elettronica,1199.99,8
+165,Stampante Laser Wi-Fi,Elettronica,129.99,40
+166,Scanner A4,Elettronica,89.99,50
+167,Macbook Pro 13",Elettronica,1299.99,5
+168,Mouse Ottico Wireless,Elettronica,19.99,60
+169,Tastiera Meccanica,Elettronica,89.99,45
+170,Speaker Bluetooth 10W,Elettronica,39.99,50
+171,Altoparlanti Surround,Elettronica,149.99,20
+172,Proiettore Full HD,Elettronica,249.99,15
+173,Macchina Fotografica Reflex,Elettronica,499.99,10
+174,GoPro Hero 9,Elettronica,399.99,8
+175,Drone Quadricottero,Elettronica,299.99,12
+176,Action Cam 4K,Elettronica,129.99,40
+177,Videocamera Digital HD,Elettronica,229.99,18
+178,Videocamera da Sorveglianza,Elettronica,99.99,50
+179,Lente per Fotocamera Smartphone,Elettronica,19.99,70
+180,Microfono da Studio USB,Elettronica,49.99,45
+181,Mixer Audio Professionale,Elettronica,299.99,8
+182,Cuffie Gaming RGB,Elettronica,79.99,35
+183,Tastiera Gaming Meccanica,Elettronica,99.99,25
+184,Mouse Gaming Ergonomico,Elettronica,49.99,60
+185,Console PlayStation 5,Elettronica,499.99,5
+186,Xbox Series X,Elettronica,499.99,6
+187,Controller Wireless PlayStation,Elettronica,59.99,50
+188,Joystick Xbox Wireless,Elettronica,49.99,60
+189,Router Mesh Wi-Fi,Elettronica,199.99,20
+190,Borsa per Laptop,Elettronica,39.99,45
+191,Disco Rigido Esterno 1TB,Elettronica,59.99,55
+192,SSD 512GB,Elettronica,79.99,50
+193,Pen Drive 64GB,Elettronica,15.99,70
+194,Telecomando Universale,Elettronica,14.99,80
+195,Lampada LED RGB,Elettronica,19.99,65
+196,Alimentatore Esterno 20W,Elettronica,29.99,40
+197,Telecomando per TV,Elettronica,9.99,90
+198,Proiettore per Smartphone,Elettronica,69.99,25
+199,Aspirapolvere Robot,Elettronica,179.99,15
+200,Frigorifero Smart Wi-Fi,Elettronica,999.99,5
+201,Macchina per il Pane,Elettronica,79.99,30
+202,Pallone da Calcio,Sport,19.99,70
+203,Pallone da Basket,Sport,24.99,60
+204,Racchetta da Tennis,Sport,39.99,50
+205,Set di Mazze da Golf,Sport,149.99,15
+206,Bicicletta da Montagna,Sport,299.99,10
+207,Pattini a Rotelle,Sport,59.99,25
+208,Tappetino da Yoga,Sport,19.99,80
+209,Set di Manubri,Sport,34.99,45
+210,Panca Piana per Pesi,Sport,99.99,20
+211,Borsa da Palestra,Sport,29.99,50
+212,Scarpe da Running,Sport,69.99,60
+213,Zaino da Trekking,Sport,89.99,30
+214,Giacca Impermeabile da Trekking,Sport,79.99,40
+215,Tenda da Campeggio,Sport,129.99,15
+216,Sacco a Pelo Estivo,Sport,49.99,35
+217,Canotta da Basket,Sport,19.99,65
+218,Maglietta da Running,Sport,24.99,70
+219,Pantaloni da Trekking,Sport,39.99,50
+220,Guanti da Boxe,Sport,29.99,45
+221,Panca per Addominali,Sport,69.99,20
+222,Bilanciere con Pesi,Sport,89.99,30
+223,Corda per Saltare,Sport,9.99,80
+224,Kettlebell 12kg,Sport,39.99,40
+225,Racchetta da Ping Pong,Sport,14.99,55
+226,Pallone da Rugby,Sport,34.99,20
+227,Maschera per Snorkeling,Sport,19.99,50
+228,Pinne da Nuoto,Sport,29.99,40
+229,Tubo per Subacquea,Sport,14.99,60
+230,Pattini in Linea,Sport,79.99,25
+231,Casco da Bicicletta,Sport,29.99,45
+232,Gilet da Ciclismo,Sport,24.99,55
+233,Borsa da Golf,Sport,49.99,30
+234,Set di Palle da Golf,Sport,19.99,40
+235,Tenda da Campeggio 4 posti,Sport,179.99,12
+236,Paddle Board Gonfiabile,Sport,299.99,8
+237,Pattini da Ghiaccio,Sport,89.99,20
+238,Corda da Escursionismo,Sport,15.99,50
+239,Tavola da Surf,Sport,299.99,10
+240,Giacca da Sci,Sport,129.99,15
+241,Occhiali da Sole Sportivi,Sport,19.99,70
+242,Bicicletta da Città,Sport,249.99,12
+243,Tavola da Snowboard,Sport,249.99,18
+244,Borsa da Skateboard,Sport,34.99,45
+245,Pantaloni da Sci,Sport,89.99,25
+246,Guanti da Sci,Sport,29.99,60
+247,Set di Palle da Tennis,Sport,14.99,50
+248,Bastoncini da Sci,Sport,39.99,20
+249,Guanti da Escursionismo,Sport,19.99,65
+250,Maschera da Sci,Sport,34.99,40
+251,Tuta da Ginnastica,Sport,39.99,45
+252,Cinghia per Fitness,Sport,14.99,60
+253,Scarpe da Calcio,Sport,59.99,30
+254,Kit di Protezioni per Skateboard,Sport,29.99,50
+255,Bastoni da Nordic Walking,Sport,29.99,40
+256,Pantaloni da Ginnastica,Sport,24.99,55
+257,Pane Fresco,Alimentari,1.99,100
+258,Latte Intero 1L,Alimentari,1.49,80
+259,Pasta di Grano Duro,Alimentari,0.99,120
+260,Riso Carnaroli 1kg,Alimentari,2.99,60
+261,Pomodori Pelati 400g,Alimentari,0.89,150
+262,Olio Extra Vergine di Oliva,Alimentari,5.99,40
+263,Farina di Grano Tenero 1kg,Alimentari,1.49,90
+264,Caffè Macinato 250g,Alimentari,2.99,70
+265,Zucchero Semolato 1kg,Alimentari,1.19,100
+266,Sale fino 1kg,Alimentari,0.99,120
+267,Succhi di Frutta 1L,Alimentari,1.29,110
+268,Acqua Minerale Naturale 1.5L,Alimentari,0.49,150
+269,Formaggio Parmigiano Reggiano 250g,Alimentari,6.99,35
+270,Mozzarella di Bufala 200g,Alimentari,3.99,50
+271,Ricotta Fresca 500g,Alimentari,2.49,60
+272,Yogurt Bianco 500g,Alimentari,1.69,80
+273,Biscotti al Burro 300g,Alimentari,2.49,70
+274,Cioccolato Fondente 100g,Alimentari,1.99,100
+275,Cereali per Colazione 500g,Alimentari,2.49,90
+276,Miele Millefiori 250g,Alimentari,4.49,45
+277,Frutta Secca Mista 250g,Alimentari,3.99,60
+278,Noci Sgusciate 200g,Alimentari,2.99,50
+279,Mandorle 200g,Alimentari,3.49,55
+280,Pasta al Forno 400g,Alimentari,1.99,80
+281,Sugo di Pomodoro 500g,Alimentari,1.29,110
+282,Carne Macinata di Manzo 500g,Alimentari,5.99,40
+283,Bistecca di Maiale 400g,Alimentari,6.49,30
+284,Pollo Intero 1kg,Alimentari,7.99,25
+285,Salmone Fresco 250g,Alimentari,8.99,35
+286,Tonno in Scatola 160g,Alimentari,1.49,90
+287,Peperoni Grigliati 200g,Alimentari,2.79,60
+288,Melanzane Sott'Olio 180g,Alimentari,3.19,50
+289,Cipolle Rosse 1kg,Alimentari,1.29,80
+290,Aglio 200g,Alimentari,0.99,100
+291,Carote Fresche 1kg,Alimentari,1.69,90
+292,Patate 2kg,Alimentari,2.49,70
+293,Pomodorini 500g,Alimentari,2.19,80
+294,Insalata Mista 400g,Alimentari,1.99,90
+295,Spinaci Freschi 500g,Alimentari,2.49,60
+296,Fagiolini Verdi 500g,Alimentari,2.19,70
+297,Zucchine 1kg,Alimentari,1.59,100
+298,Frutta di Stagione 1kg,Alimentari,2.99,50
+299,Banane 1kg,Alimentari,1.79,120
+300,Mele Golden 1kg,Alimentari,2.49,110
+301,Pere Williams 1kg,Alimentari,2.29,100
+302,Uva Bianca 500g,Alimentari,3.49,40
+303,Ananas Fresco 1pz,Alimentari,3.99,30
+304,Pesche Fresche 1kg,Alimentari,2.99,60
+305,Ciliegie 500g,Alimentari,4.99,40
+306,Frittura Mista Congelata 500g,Alimentari,5.99,25
+307,Patatine Fritte 200g,Alimentari,1.99,80
+308,Popcorn al Burro 100g,Alimentari,1.49,100
+309,Snack Salati Mix 150g,Alimentari,2.49,70
+310,Torta al Cioccolato 400g,Alimentari,3.99,50
+311,Gelato alla Vaniglia 500ml,Alimentari,3.49,60
+312,Tiramisù 400g,Alimentari,4.49,40
+313,Caffè Espresso in Cialde 100pz,Alimentari,11.99,30

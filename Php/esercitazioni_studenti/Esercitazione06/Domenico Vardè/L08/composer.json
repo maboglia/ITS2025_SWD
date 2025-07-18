@@ -1,0 +1,17 @@
+{
+    "name": "varde/ortofrutta",
+    "description": "parole descrittive",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Domenico Varde"
+        }
+    ],
+    "require": {}
+}
